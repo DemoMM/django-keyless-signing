@@ -21,7 +21,9 @@ jobs:
 
   steps:
     - name: Checkout repository
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
+      with:
+        repository: 'main'
 
     - name: Install cosign
       uses: sigstore/cosign-installer@main

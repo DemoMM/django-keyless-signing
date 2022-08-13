@@ -1,7 +1,7 @@
 # Securing Your Software Supply Chain with Sigstore
 
 
-## Sigstore Github Example
+## Sigstore Github Action Example
 
 In this demonstration, we’ll be using GitHub Actions to perform keyless signing on a sample container. In this example, we’ll use a Django container that displays a generic “Hello, World” style landing page. Django is a Python web framework.
 
